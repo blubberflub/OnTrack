@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_goal"
+        android:orderInCategory="100"
+        android:title="Edit name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/change_goal"
+        android:orderInCategory="100"
+        android:title="Change task"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/timer"
+        android:orderInCategory="100"
+        android:title="Set Timer"
+        app:showAsAction="never"/>
+</menu>

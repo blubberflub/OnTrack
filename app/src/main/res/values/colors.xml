@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f8f8f8</color>
+    <color name="colorPrimaryDark">#3c5469</color>
+    <color name="colorAccent">#355c7d</color>
+    <color name="Titles">#aa43413b</color>
+    <color name="Frag3">#FF9900</color>
+    <color name="star">#afffbf00</color>
+    <color name="needyButton">#ffdddb</color>
+    <color name="needyButton2">#f27a73</color>
+    <color name="Frag2">#c25c60</color>
+    <color name="progressColor">#567997</color>
+    <color name="cards">#697C8C</color>
+    <color name="background">#efefef</color>
+    <color name="disabled">#d8d8d8</color>
+    <color name="times">#aabccb</color>
+    <color name="Goals">#567997</color>
+    <color name="hintColor">#efefef</color>
+    <color name="inputbutton">#3d566b</color>
+    <color name="buttonPress">#778897</color>
+</resources>

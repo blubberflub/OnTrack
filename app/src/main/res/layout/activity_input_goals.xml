@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Goals"
+    android:orientation="vertical"
+    tools:context="com.blubflub.alert.ontrack.InputGoals">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="OnTrack"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/inputGoal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="left"
+            android:hint="Start by entering a daily task..."
+            android:singleLine="true"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/input_goals_text"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Let's go"
+        android:stateListAnimator="@null"
+        android:background="@drawable/input"
+        android:textColor="@color/cardview_light_background"
+        android:onClick="finishTasks"/>
+</LinearLayout>

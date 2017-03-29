@@ -1,0 +1,30 @@
+<resources>
+    <string name="help_message">The progress ring displays a PRating (Productivity rating).\n\nYour PRating
+        is determined by \n\n• <b>How many of the tasks you completed for the day as well as each of their individual weights.</b>
+        \n\nAs long as you finish all of your daily tasks before the day ends, you will recieve a 100% PRating.
+        \n\nThe weight of a goal defines how much of an impact that goal has on the PRating. Each goal will start at a weight of 1 and can never drop any lower than that. However,
+        If you fail to finish a goal for the day, that goal\'s weight will go up by 1 and will have a greater effect on the PRating
+        than the other goals. The weight will continue to go up each day until you finish that certain task in which case, the weight will go down by 1.\n\nYour
+        overall goal is to properly finish every task daily to achieve a full PRating and to try to keep each task weight as low as possible.\n\nAlongside this, all of your
+        individual times, total times spent daily, and PRatings will be recorded every day and viewable so you will be able to
+        recognize patterns or set goals for the future. Good luck! And let\'s have another productive day! :)</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hours">Hour(s)</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="input_goals_text">"Studies have shown that it takes 66 days \non average to form a new habit."</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+</resources>

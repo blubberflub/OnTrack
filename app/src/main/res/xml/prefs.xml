@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Preferences"
+        android:key="pref_key_storage_settings">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notifs"
+            android:summary="This option if selected will enable daily reminders."
+            android:title="Enable Notifications"/>
+    </PreferenceCategory>
+
+    <Preference
+        android:key="reset_all"
+        android:title="Reset All Data"/>
+</PreferenceScreen>

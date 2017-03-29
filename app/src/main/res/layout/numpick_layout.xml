@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text=" "
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textAllCaps="false"
+        android:textSize="15dp"/>
+
+    <com.blubflub.alert.ontrack.NumberPicker
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/hourText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="@string/hours"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="13sp"/>
+
+    <com.blubflub.alert.ontrack.NumberPicker
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:padding="5dp"
+        android:text="Min"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="13sp"/>
+</LinearLayout>
